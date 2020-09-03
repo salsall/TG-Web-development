@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introductie</title>
+</head>
+
+<!-- 
+
+De  opdrachten staan hier allemaal weergegeven als een comment en de laatste paar opdrachten (15, 16 & 17) kunnen worden weergegeven in een webpagina.
+
 Intro
 
 1.Wat is het verschil tussen het internet en het world wide web?
@@ -54,6 +66,7 @@ Intro
     Nesting betekent dat je het ene element 'nestelt' binnen een ander element. Dit kan je gebruiken om een paar elementen bij elkaar te groeperen, zoals bij div containers, om overzicht / structuur in je content aan te brengen. 
     Je kunt naar de relatie van de elementen kijken als parent-child. Zowel inline elementen als block elementen kunnen genest worden, en de block elementen kunnen ook meerdere lagen diep genesteld worden. Er dient dan wel goed opgelet te worden wat waar wordt geopend of gesloten, want hoe meer lagen, hoe minder overzichtelijk de html structuur te lezen is. 
     Voorbeeld: div van 2 nested lagen diep:
+
             <div class="outer-parent">
                     <div class="inner-div">
                             <p>This is a paragraph, nested in the first inner-div</p>
@@ -125,6 +138,28 @@ Headers
         target = waar wordt de link geopend, zelfde tab, nieuwe tab of > blank window
         rel = relatie tussen pagina waarop je bent en de link
         referrerpolicy = of de gelinkte pagina te horen krijgt waar de gebruiker vandaan komt (zoekmachine, facebook, etc)
-            (voor voorbeeld zie boven)
+            (voor voorbeeld zie boven) 
+        
+        Het target attribuut kan vier values hebben. Dit zijn:
+        ● _self -> opent het gelinkte document in hetzelfde frame (zelfde tabblad).
+        ● _blank -> opent het gelinkte doument in een nieuw frame (andere tabblad).
+        ● _parent -> opent het gelinkte document in de bovenliggende frameset.
+        ● _top -> opent het gelinkte document in de body van het frame/venster. --> 
+
+
+<body>
+    <h1>Opdracht 15, 16 & 17</h1>
+    <h1> Mijn eerste website</h1>
+    <h2> Mijn eerste sub-kop</h2>
+    <p>Lorem ipsum DimSum </p>
+    <h2> Mijn tweede sub-kop</h2>
+    <p>paragraaf numero uno</p><br>
+    <p>paragraaf numero duo</p>
+    <hr>
+    <h1>Footer</h1>
+    <p>Deze website is gebouwd door het meest getalenteerde groepje van de <a href="http://www.techgrounds.nl" target="_blank" rel="external" referrerpolicy="origin">TechGrounds Academy</a>
+
+</body>
     
 
+</html>
