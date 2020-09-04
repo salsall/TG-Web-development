@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Members</title>
+</head>
+
+<style>
+   html,
+   body {
+      background-color: floralwhite;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+   table {
+      width: 100%;
+      text-align: left;
+      margin: 30px;
+
+   }
+</style>
+
+<body>
+   <div class="members">
+      <h1>Members</h1>
+      <hr>
+      <table>
+         <thead>
+            <tr>
+               <th>Firstname</th>
+               <th>Surname</th>
+               <th>Age</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>Klaas</td>
+               <td>Jan</td>
+               <td>34</td>
+            </tr>
+            <tr>
+               <td>Jennis</td>
+               <td>Lee</td>
+               <td>25</td>
+            </tr>
+            <tr>
+               <td>Cameron</td>
+               <td>Lion</td>
+               <td>16</td>
+            </tr>
+            <tr>
+               <td>Anthony</td>
+               <td>Bos</td>
+               <td>66</td>
+            </tr>
+            <tr>
+               <td>Frits</td>
+               <td>Kosnovia</td>
+               <td>33</td>
+            </tr>
+            <tr>
+               <td>Venezuela</td>
+               <td>Kosnovia</td>
+               <td>57</td>
+            </tr>
+            <tr>
+               <td>Bosnia</td>
+               <td>Kovic</td>
+               <td>43</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+
+   <div>
+      <h2>Additional information</h2>
+      <form action="/action_page.php">
+         <fieldset>
+            <table>
+               <tr>
+                  <td>First name:</td>
+                  <td>Surname:</td>
+                  <td>Age:</td>
+               </tr>
+               <tr>
+                  <td><select name="dropdown" id="list">
+                        <option>Klaas</option>
+                        <option>Jennis</option>
+                        <option>Cameron</option>
+                        <option>Anthony</option>
+                        <option>Frits</option>
+                        <option>Venezuela</option>
+                        <option>Bosnia</option>
+                  </td>
+                  <td><input type="text" name="Surname"></td>
+                  <td><input type="text" name="Age"></td>
+               </tr>
+            </table>
+
+            <table>
+               <tr>
+                  <td>Company:</td>
+                  <td>Username:</td>
+                  <td>E-mail:</td>
+               </tr>
+               <tr>
+                  <td><input type="text" name="Company"></td>
+                  <td><input type="text" name="Username"></td>
+                  <td><input type="text" name="Email"></td>
+               </tr>
+            </table>
+
+            <label>Address: </label><br>
+            <input type="text" name="Address">
+
+            <table>
+               <tr>
+                  <td></td>
+               </tr>
+            </table>
+
+            <label>City:</label>
+            <input type="text" name="City">
+
+            <label>Country:</label>
+            <input type="text" name="Country">
+
+            <label>Postal code:</label>
+            <input type="text" name="Postal code">
+
+
+         </fieldset>
+      </form>
+   </div>
+
+
+</body>
+
+</html>

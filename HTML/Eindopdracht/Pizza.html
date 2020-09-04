@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="Images/Pizza.ico" type="ico">
+   <title>Pizzaa</title>
+</head>
+
+<style>
+   html,
+   body {
+      background-color: lightgrey;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+   .intro {
+      margin: auto;
+      width: 70%;
+   }
+
+   .intro h1 {
+      color: red;
+   }
+
+   .toppings {
+      font-style: italic;
+   }
+
+   .menu {
+      margin: auto;
+      max-width: 1300px;
+   }
+
+   .pizza {
+      display: inline-block;
+      background-color: white;
+      width: 600px;
+      height: 310px;
+      margin: 10px;
+   }
+
+   .price {
+      font-weight: bold;
+      color: red;
+   }
+
+   img {
+      width: 250px;
+      height: 250px;
+      float: left;
+      margin: 30px 0px 30px 30px;
+   }
+
+   .text {
+      float: right;
+      margin: 30px 30px 30px 0px;
+      width: 260px;
+      text-align: left;
+   }
+
+   button {
+      text-transform: uppercase;
+   }
+</style>
+
+<body>
+   <div class="intro">
+      <h1>Menu</h1>
+      <p class="toppings">Unique wood fired pizzas or be tempted by our pasta, antipasta, focaccias, salads and
+         Bruschetta dishes. Relax
+         in the friendly ambience as you enjoy the aromas of the wood ovens or sit al fresco and soak up the Mildura
+         sunshine.</p>
+   </div>
+
+   <div class="menu">
+      <!--Menu op verschillende manieren in te delen: tabel of block-->
+
+      <div class="pizza">
+         <img src="Images/Original.PNG" alt="Original Pizza">
+         <div class="text">
+            <h2>Original</h2>
+            <p class="toppings">Tomato sauce, mozzarella & oregano</p>
+            <p class="price">$ 18.00</p>
+            <button>Add to cart</button>
+         </div>
+      </div>
+
+      <div class="pizza">
+         <img src="Images/Salami.PNG" alt="Salami Pizza">
+         <div class="text">
+            <h2>Salami</h2>
+            <p class="toppings">Tomato sauce, mozzarella & mild salami</p>
+            <p class="price">$ 15.00</p>
+            <button>Add to cart</button>
+         </div>
+      </div>
+
+      <div class="pizza">
+         <img src="Images/Chicken.PNG" alt="Chicken Pizza">
+         <div class="text">
+            <h2>Chicken</h2>
+            <p class="toppings">Tomato sauce, mozzarella, chicken, pineapple* & BBQ sauce</p>
+            <p class="price">$ 25.00</p>
+            <button>Add to cart</button>
+         </div>
+      </div>
+
+      <div class="pizza">
+         <img src="Images/Hawaiian.PNG" alt="Hawaiian Pizza">
+         <div class="text">
+            <h2>Hawaiian</h2>
+            <p class="toppings">Tomato sauce, mozzarella, ham & pineapple</p>
+            <p class="price">$ 16.00</p>
+            <button>Add to cart</button>
+         </div>
+      </div>
+
+   </div>
+</body>
+
+</html>
