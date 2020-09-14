@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<style>
+   .con1, .con2 {
+      position: relative;
+      margin: 0px;
+      width: 100px;
+      height: 70px;
+   }
+
+   .dot {
+      content: '';
+      position: relative;
+      height: 70px;
+      width: 70px;
+      background-color: black;
+      color: white;
+      border-radius: 50%;
+      left: 15px;
+   }
+
+   .minil {
+      position: absolute;
+      height: 30px;
+      width: 30px;
+      background-color: black;
+      border-radius: 50%;
+      top: 20px;
+   }
+
+   .minil::before {
+      position: absolute;
+      content: '';
+      height: 2px;
+      width: 2px;
+      background-color: white;
+      border-radius: 50%;
+      top: 30%;
+      left: 50%;
+   }
+
+   .minir {
+      position: absolute;
+      height: 30px;
+      width: 30px;
+      background-color: black;
+      border-radius: 50%;
+      right: 0px;
+      top: 20px;
+   }
+
+   .minir::before {
+      position: absolute;
+      content: '';
+      height: 2px;
+      width: 2px;
+      background-color: white;
+      bottom: 30%;
+      left: 50%;
+   }
+
+   .con1, .con2 {
+      display: inline-block;
+   }
+
+</style>
+
+<body>
+   <h2>Opdracht 6</h2>
+   <p>Hieronder vind je wederom een voorbeeld van het gebruik van een pseudo-element. Kun jij dit namaken?</p>
+   
+      <div class="con1">
+         <button class="dot"><b>1</b>
+         </button>
+         <div class="minil"></div>
+         <div class="minir"></div>
+      </div>
+      <div class="con2">
+         <button class="dot"><b>2</b>
+         </button>
+         <div class="minil"></div>
+         <div class="minir"></div>
+      </div>
+      <div class="con2">
+         <button class="dot"><b>3</b>
+         </button>
+         <div class="minil"></div>
+         <div class="minir"></div>
+      </div>
+
+
+
+
+</body>
+
+</html>

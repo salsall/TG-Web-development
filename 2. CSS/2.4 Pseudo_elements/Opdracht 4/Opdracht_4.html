@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      button {
+         position: relative;
+         background-color: lightseagreen;
+         width: 500px;
+         /* height: 45px; */
+         color: white;
+         text-align: center;
+         font-family: Calibri;
+         font-size: xx-large;
+      }
+
+      button::before {
+         position: absolute;
+         content: '';
+         width: 40px;
+         height: 40px;
+         border-top: 5px solid tomato;
+         border-left: 5px solid tomato;
+         top: -2px;
+         left: -2px;
+      }
+
+      button::after {
+         position: absolute;
+         content: '';
+         width: 40px;
+         height: 40px;
+         border-bottom: 5px solid tomato;
+         border-right: 5px solid tomato;
+         bottom: -2px;
+         right: -2px;
+      }
+   </style>
+</head>
+
+<body>
+   <h2>Opdracht 4</h2>
+   <p>Hieronder vind je een voorbeeld van het gebruik van een pseudo-element. Kun jij dit namaken?</p>
+   <button>
+      Button
+   </button>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<style>
+   .square {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      transform: rotate(-5deg);
+      left: 50px;
+      top: 20px;
+   }
+
+   .square::before {
+      position: absolute;
+      content: "";
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      transform: rotate(20deg);
+   }
+
+   .square::after {
+      position: absolute;
+      content: "";
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      transform: rotate(60deg);
+   }
+
+</style>
+
+<body>
+   <h1>Opdracht 7</h1>
+   <p>De laatste opdracht vergt wat creativiteit. Zie het onderstaande voorbeeld en maak het na.</p>
+   <div class="square"></div>
+</body>
+</html>

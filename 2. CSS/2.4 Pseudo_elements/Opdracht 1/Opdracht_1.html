@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<style>
+   ul li::first-letter {
+      color: rgb(43, 255, 0);
+      font-size: xx-large;
+   }
+
+   p::first-line {
+      color: #ff0000;
+      font-variant: small-caps;
+      line-height: normal;
+   }
+
+   p::before {
+      display: block;
+      content: '';
+      background-color: rgb(43, 205, 226);
+      width: 30px;
+      height: 10px;
+   }
+
+   ul li::after {
+      display: inline-block;
+      content: '';
+      background-color: blueviolet;
+      width: 10px;
+      height: 10px;
+   }
+</style>
+
+<body>
+   <h1>Opdracht 1</h1>
+   <p>Kun je enkele voorbeelden geven van pseudo-elementen (minimaal 4)? Beschrijf met je eigen woorden wat deze
+      pseudo-elementen inhouden.</p>
+      
+   <ul>
+      <li>::first-letter - Dit gebruik je om de eerste letter van een geselecteerd element te stylen.</li>
+      <li>::first-line - Dit gebruik je om de eerste regel van een geselecteerd element te stylen.</li>
+      <li>::before - Dit gebruik je om content toe te voegen VOOR het geselecteerde element en deze ook te stylen.</li>
+      <li>::after - Dit gebruik je om content toe te voegen NA het geselecteerde element te zetten en deze ook te
+         stylen.</li>
+   </ul>
+
+
+</body>
+
+</html>
