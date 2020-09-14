@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<style>
+
+.flex-container {
+  display: flex;
+  background-color: lemonchiffon ;
+}
+
+.flex-container > div {
+  background-color: lightgreen;
+  padding: 20px ;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.grow {
+   flex-grow: 1;
+}
+
+</style>
+
+<body>
+   <h1>Opdracht 3</h1>
+   <p>Zie het onderstaande voorbeeld, een van de items is breder dan de rest. Maak het na met flex. Gebruik geen width, height of line-height.
+   </p>
+
+      <div class="flex-container">
+         <div>1</div>
+         <div class="grow">2</div>
+         <div>3</div>  
+         <div>4</div>
+         <div>5</div>
+         <div>6</div>  
+       </div>
+
+</body>
+
+</html>

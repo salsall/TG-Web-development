@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<style>
+   .container {
+      display: flex;
+      background-color: rgb(233, 230, 230);
+      justify-content: space-evenly;
+   }
+
+   .container>div {
+      background-color: white;
+      margin: 10px;
+      color: blue;
+      font-family: Arial;
+      text-align: center;
+      box-sizing: border-box;
+      width: 200px;
+
+   }
+
+   button {
+      background-color: blue;
+      color: whitesmoke;
+      border-radius: 2px;
+      width: 100%;
+      padding: 10px;
+      font-size: 12px;
+   }
+
+   button:hover {
+      background-color: #ddd;
+      color: black;
+      transition: 1s;
+   }
+
+   img {
+      width: 200px;
+   }
+
+   h5 {
+      margin-top: 7px;
+   }
+
+   p {
+      color: black;
+      font-size: 10px;
+   }
+</style>
+
+<body>
+   <h1>Opdracht 9</h1>
+   <p>Zie het onderstaande voorbeeld en maak het na met flexbox. Zorg voor een leuk effect als je met de muis over de
+      ‘play’ knop heen gaat. Optioneel: gebruik .gif bestanden als images voor een levendig effect.</p>
+
+   <div class="container">
+      <div>
+         <div><img src="marionrun.gif" alt="Super Mario Run"></div>
+         <div>
+            <h5>Super Mario Run</h5>
+            <p>Een nieuw soort Super Mario-game, die je met één hand kunt spelen! Je bestuurt Mario door het scherm aan
+               te raken terwijl hij automatisch door het level rent.</p>
+         </div>
+         <button>Play Super Mario Run</button>
+      </div>
+      <div>
+         <div><img src="mariomaker.jpg" alt="Mario Maker"></div>
+         <div>
+            <h5>Mario Maker</h5>
+            <p>Steek de handen uit de mouwen en bouw de Super Mario levels waar je altijd van hebt gedroomd in Super
+               Mario Maker 2, exclusief voor de Nintendo Switch!</p>
+         </div>
+         <button>Play Mario Maker</button>
+      </div>
+      <div>
+         <div><img src="mario3.gif" alt="Super Mario 3"></div>
+         <div>
+            <h5>Super Mario 3</h5>
+            <p>Super Mario Bros. 3 introduceert een tal van vooruitgangen t.o.v. het originele Super Mario Bros., zoals
+               de toevoeging van een wereldmap, meer vijanden en level-types.</p>
+         </div>
+         <button>Play Super Mario 3</button>
+      </div>
+      <div>
+         <div><img src="yoshi.jpg" alt="Yoshi's Island"></div>
+         <div>
+            <h5>Yoshi's Island</h5>
+            <p>Yoshi's island is een spel waar elk level weer iets nieuws biedt van vijanden tot uitdagingen. Dit houdt
+               het spel door de hele speeltijd interessant en uitdagend.</p>
+         </div>
+         <button>Play Yoshi's Island</button>
+      </div>
+   </div>
+</body>
+
+</html>
