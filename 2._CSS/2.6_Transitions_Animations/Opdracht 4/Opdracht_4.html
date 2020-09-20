@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<style>
+   .container {
+      position: relative;
+      height: 1000px;
+      width: 1000px;
+      background-color: lightblue;
+      border: 5px solid black;
+      display: flex;
+      justify-content: center;
+      box-sizing: border-box;
+   }
+
+   .flex {
+      top: 445px;
+      position: absolute;
+      padding-top: 20px;
+      height: 100px;
+      width: 100px;
+      text-align: center;
+      box-sizing: border-box;
+      border: 1px solid black;
+      font-size: 50px;
+      margin: 2px;
+      /* transition-property: transform, border-radius, background-color; */
+      transition-duration: 2.5s;
+   }
+
+   .container:hover #f1 {
+      transform: translate(445px, -450px);
+   }
+
+   .container:hover #f2 {
+      transform: translate(-445px, -450px);
+   }
+</style>
+
+<body>
+   <div class="container">
+      <div class="flex" id="f1">1</div>
+      <div class="flex" id="f2">2</div>
+      <div class="flex" id="f3">3</div>
+   </div>
+</body>
+
+</html>
