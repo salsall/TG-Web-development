@@ -4,26 +4,20 @@
    width:  100px;
    height: $height;
    border-radius:4px;
+   &:hover {
+      background-color: pink;
+      color: white;
+      transition:2s;
+   }
+   
 }
 
-@mixin hover {
-   background-color: pink;
-   color: white;
-       transition:2s;
-}
 
 .button {
    @include button-style(40px);
-  
-   &:hover {
-       @include hover;
-   }
 }
 
 .colorChangingSquare {
    @include button-style(100px);
-   
-   &:hover {
-      @include hover;
-  }
+
 }
