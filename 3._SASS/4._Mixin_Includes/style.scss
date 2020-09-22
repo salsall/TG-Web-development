@@ -1,0 +1,29 @@
+@mixin button-style($height) {
+   background-color: #9BC7B1;
+   color: black;
+   width:  100px;
+   height: $height;
+   border-radius:4px;
+}
+
+@mixin hover {
+   background-color: pink;
+   color: white;
+       transition:2s;
+}
+
+.button {
+   @include button-style(40px);
+  
+   &:hover {
+       @include hover;
+   }
+}
+
+.colorChangingSquare {
+   @include button-style(100px);
+   
+   &:hover {
+      @include hover;
+  }
+}
