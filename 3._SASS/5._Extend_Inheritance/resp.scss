@@ -1,0 +1,17 @@
+$break-small: 320px;
+$break-large: 1200px;
+
+.lemonade {
+  position: relative;
+  border: 30px solid black;
+  width: 300px;
+  @media screen and (max-width: $break-small) {
+    width: 150px;
+    border: 5px solid yellow;
+
+  }
+  @media screen and (min-width: $break-large) {
+   float: right;
+   border: 2px green;
+  }
+}
