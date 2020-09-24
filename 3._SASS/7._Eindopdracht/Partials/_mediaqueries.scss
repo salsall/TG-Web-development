@@ -1,46 +1,57 @@
-/* Header */
-@media (max-width: 768px) {
-   .header {
-   justify-content: center;
-   }
-}
-
-/* Home */
-   
-@media (max-width: 992px) {
-.home {
-   display: flex;
-}
-   .home-text {
-      width: 50%;
-      text-align: center;
-   }
-}
-
-@media (max-width: 800px) {
-   .home {
+@media only screen and (max-width: 992px) {
+      .home {
       margin: auto;
+      display: flex;
+      &-text {
+         width: 50%;
+         text-align: center;
+      }
    }
-}
-
-/* Menu */
-@media (max-width: 768px) {
-   .chef {
+   .menu-chef {
       display: none;
    }
 }
 
-@media (max-width: 576px) {
+
+@media only screen and (max-width: 576px) {
+   .home {
+      justify-content: center;
+      align-items: center;
+      &-text {
+         position: static;
+      }
+   }
+
+   .header {
+      justify-content: center;
+   }
+
    .pasta {
       width: 300px;
    }
+
+   .footer {
+      & ul{
+         padding: 0px;
+      }
+      &-open {
+      display: flex;
+      justify-content: center;
+      }
+   }
 }
+
+
+
+
+
+
 
 /* Contact */
 @media (max-width: 576px) {
    footer {
-      /* justify-content: center; */
-      /* margin: auto; */
+      justify-content: center;
+      margin: auto;
       text-align: center;
    }
 }

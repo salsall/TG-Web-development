@@ -324,4 +324,64 @@ footer {
   text-decoration: none;
   color: #6187d8;
 }
+
+@media only screen and (max-width: 992px) {
+  .home {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .home-text {
+    width: 50%;
+    text-align: center;
+  }
+  .menu-chef {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .home {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .home-text {
+    position: static;
+  }
+  .header {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .pasta {
+    width: 300px;
+  }
+  .footer ul {
+    padding: 0px;
+  }
+  .footer-open {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+/* Contact */
+@media (max-width: 576px) {
+  footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=main.css.map */
