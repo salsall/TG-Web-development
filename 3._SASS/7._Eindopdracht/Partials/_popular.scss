@@ -1,0 +1,36 @@
+@import "./base";
+
+.populaire-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+.pasta {
+   margin: 10px;
+   width: 250px;
+   
+   &-img {
+      display: flex; 
+      & img {
+         width: 200px;
+         margin: auto;
+         border-radius: 50%;
+      }
+   }
+
+   &-show {
+      font-weight: 600;
+      text-align: right;
+   }
+
+   &-title {
+      font-size: 20px;
+      font-weight: 600;
+   }
+   
+   &-price {
+      float: right;
+   }
+
+}

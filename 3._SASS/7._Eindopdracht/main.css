@@ -1,0 +1,327 @@
+.home-text-button1, .home-text-button2 {
+  background-color: rgba(1, 1, 1, 0);
+  border: 1px solid #80b380;
+  font-family: 'Lobster', cursive;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 2px;
+  margin: 4px 10px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.home-text-button1:hover, .home-text-button2:hover {
+  background-color: #80b380;
+  color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body {
+  background-color: gray;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.title-div {
+  text-align: center;
+  font-size: 50px;
+}
+
+.home-text-button1, .home-text-button2 {
+  background-color: rgba(1, 1, 1, 0);
+  border: 1px solid #80b380;
+  font-family: 'Lobster', cursive;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 2px;
+  margin: 4px 10px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.home-text-button1:hover, .home-text-button2:hover {
+  background-color: #80b380;
+  color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body {
+  background-color: gray;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.title-div {
+  text-align: center;
+  font-size: 50px;
+}
+
+.header {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-transform: uppercase;
+  background-color: #80b380;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  z-index: 10;
+}
+
+.header a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.header a:hover {
+  background-color: #ddd;
+}
+
+.home {
+  position: relative;
+  color: #6187d8;
+  background-image: url(/3._SASS/7._Eindopdracht/Images/cooking.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  z-index: 0;
+}
+
+.home-text {
+  width: 350px;
+  height: 200px;
+  top: 20%;
+  right: 30%;
+  position: absolute;
+}
+
+.home-text-title {
+  font-size: 3em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.home-text-button1 {
+  color: #6187d8;
+  padding: 7px 45px;
+}
+
+.home-text-button2 {
+  color: #80b380;
+  padding: 7px 30px;
+}
+
+.home::after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.home-text-button1, .home-text-button2 {
+  background-color: rgba(1, 1, 1, 0);
+  border: 1px solid #80b380;
+  font-family: 'Lobster', cursive;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 2px;
+  margin: 4px 10px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.home-text-button1:hover, .home-text-button2:hover {
+  background-color: #80b380;
+  color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body {
+  background-color: gray;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.title-div {
+  text-align: center;
+  font-size: 50px;
+}
+
+.populaire-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.pasta {
+  margin: 10px;
+  width: 250px;
+}
+
+.pasta-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pasta-img img {
+  width: 200px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.pasta-show {
+  font-weight: 600;
+  text-align: right;
+}
+
+.pasta-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.pasta-price {
+  float: right;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu-chef {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.menu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1100px;
+}
+
+.menu-container-pasta {
+  width: 290px;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.menu-container-pasta-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.menu-container-pasta-price {
+  float: right;
+}
+
+.menu-container-pasta p {
+  margin: 0px;
+}
+
+.home-text-button1, .home-text-button2 {
+  background-color: rgba(1, 1, 1, 0);
+  border: 1px solid #80b380;
+  font-family: 'Lobster', cursive;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 2px;
+  margin: 4px 10px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.home-text-button1:hover, .home-text-button2:hover {
+  background-color: #80b380;
+  color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body {
+  background-color: gray;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.title-div {
+  text-align: center;
+  font-size: 50px;
+}
+
+footer {
+  background-color: #80b380;
+  color: #6187d8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer {
+  width: 288px;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #6187d8;
+}
+/*# sourceMappingURL=main.css.map */

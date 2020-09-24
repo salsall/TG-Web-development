@@ -1,0 +1,20 @@
+@import "./base";
+
+footer {
+   background-color:  $primary-color;
+   color: $secondary-color;
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+.footer {
+   width: 288px;
+   & ul {
+      list-style-type: none;
+      & li a {
+         text-decoration: none;
+         color: $secondary-color;
+      }
+   }
+}

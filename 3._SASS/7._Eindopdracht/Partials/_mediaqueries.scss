@@ -1,0 +1,46 @@
+/* Header */
+@media (max-width: 768px) {
+   .header {
+   justify-content: center;
+   }
+}
+
+/* Home */
+   
+@media (max-width: 992px) {
+.home {
+   display: flex;
+}
+   .home-text {
+      width: 50%;
+      text-align: center;
+   }
+}
+
+@media (max-width: 800px) {
+   .home {
+      margin: auto;
+   }
+}
+
+/* Menu */
+@media (max-width: 768px) {
+   .chef {
+      display: none;
+   }
+}
+
+@media (max-width: 576px) {
+   .pasta {
+      width: 300px;
+   }
+}
+
+/* Contact */
+@media (max-width: 576px) {
+   footer {
+      /* justify-content: center; */
+      /* margin: auto; */
+      text-align: center;
+   }
+}

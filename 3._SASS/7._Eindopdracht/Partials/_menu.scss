@@ -1,0 +1,36 @@
+.menu {
+   display: flex;
+   justify-content: center;
+   
+   &-chef {
+      display: flex;
+      align-items: flex-end;
+   }
+
+   &-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      width: 1100px;
+      &-pasta {
+         width: 290px;
+         padding: 20px;
+         padding-left: 30px;
+         padding-right: 30px;
+         
+         &-title {
+            font-size: 20px;
+            font-weight: 600;
+         }
+         
+         &-price {
+            float: right;
+         }
+
+         & p {
+            margin: 0px;
+         }
+      }
+   }
+}

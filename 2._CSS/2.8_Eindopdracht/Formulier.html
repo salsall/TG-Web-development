@@ -1,0 +1,48 @@
+<!-- Sticky Header -->
+nav {
+   position: absolute;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   width: 100%;
+   z-index: 2;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   background-color: #393b44;
+ }
+
+ <!-- Media queries formulieren -->
+ @media screen and (min-width: 1281px) and (max-width: 3200px) {
+   body {
+     margin-top: 0;
+     margin-left: 21.03rem;
+   }
+   .main {
+     margin-top: 0;
+   }
+   .nav-links {
+     padding-top: 1.5rem;
+   }
+   .side-nav {
+     position: fixed;
+     display: block;
+     width: 21rem;
+     height: 100%;
+   }
+ 
+ @media screen and (min-width: 375px) and (max-width: 667px) {
+   body {
+     margin: 0;
+   }
+   .side-nav {
+     position: sticky;
+     width: 100%;
+     height: auto;
+   }

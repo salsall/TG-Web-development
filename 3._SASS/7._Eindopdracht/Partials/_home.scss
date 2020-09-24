@@ -1,0 +1,55 @@
+.home {
+   position: relative;
+   color: $secondary-color;
+   background-image: url(/3._SASS/7._Eindopdracht/Images/cooking.jpg);
+   background-position: center;
+   background-size: cover;
+   // width: 100%;
+   height: 500px;
+   z-index: 0;
+
+   &-text {
+      width: 350px;
+      height: 200px;
+      top: 20%;
+      right: 30%;
+      position: absolute;
+
+      &-title {
+         font-size: 3em;
+         margin-bottom: 0px;
+         margin-top: 0px;
+      }
+
+      &-button1 {
+         @extend %button;
+         @include button-basic($secondary-color, 7px 45px);
+      }
+      &-button2 {
+         @extend %button;
+         @include button-basic($primary-color, 7px 30px);
+      }
+   }
+   &::after {
+      position: absolute;
+      content: "";
+      display: block;
+      top: 0;
+      left: 0;
+      background-color: black;
+      width: 100%;
+      height: 100%;
+      opacity: 0.7;
+      z-index: -1;
+   }
+}
+
+
+
+
+
+// button:hover {
+//    background-color: rgb(128, 179, 128);
+//    color: black;
+//    transition: 1s;
+// }

@@ -1,0 +1,57 @@
+// Variables
+
+$primary-color: rgb(128, 179, 128);
+$secondary-color: rgb(97, 135, 216);
+
+// Mixins
+@mixin button-basic($color, $padding) {
+   color: $color;
+   padding: $padding;
+} 
+// @include button-style()
+
+// Extends
+
+
+// @extend %button-basic
+%button {
+   background-color: rgba(1, 1, 1, 0);
+   border: 1px solid $primary-color;
+   font-family: 'Lobster', cursive;
+   text-transform: uppercase;
+   text-align: center;
+   border-radius: 2px;
+   margin: 4px 10px;
+   cursor: pointer;
+   width: 150px;
+   &:hover {
+      background-color: $primary-color;
+      color: black;
+      transition: 1s;
+   }
+}
+
+// %pasta {
+//    &-title {
+//       font-size: 20px;
+//       font-weight: 600;
+//    }
+   
+//    &-price {
+//       float: right;
+//    }
+// }
+
+
+body {
+   background-color: gray;
+   margin: 0;
+   font-family: 'Lobster', cursive;
+   box-sizing: border-box;
+}
+
+.title-div {
+   text-align: center;
+   font-size: 50px;
+}
+
