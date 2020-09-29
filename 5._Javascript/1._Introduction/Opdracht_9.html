@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <h1>Opdracht 9</h1>
+   <h4>Stap 1-4</h4>
+    <p>Met de increment number++ blijft de waarde van number++ hetzelfde als de ingevoerde waarde bij number en wordt de waarde van number met '1' verhoogd.
+       <ul>
+          <li>number: 4</li>
+          <li>number++: 3</li>
+       </ul>
+    </p>
+    <p>Met de excrement number-- blijft de waarde van number-- hetzelfde als de ingevoerde waarde bij number en wordt de waarde van number met '1' verlaagd.
+      <ul>
+         <li>number: 2</li>
+         <li>number++: 3</li>
+      </ul>
+    </p>
+
+    <h4>Stap 5-6</h4>
+    <p>Het volgende:
+       <ul>
+          <li>number = 3;</li>
+          <li>const sum = number++ + 2;</li>
+          <li>console.log(sum);</li>
+       </ul>
+      geeft als uitkomst: 5. number++ heeft de waarde 3 en als er daar 2 bij wordt opgeteld krijg je 5, dus vandaar het antwoord.
+    </p>
+
+    <h4>Stap 7-8</h4>
+    <p>Het volgende:
+       <ul>
+          <li>number = 3;</li>
+          <li>const sum2 = ++number + 2;</li>
+          <li>console.log(sum2);</li>
+       </ul>
+      geeft als uitkomst: 6. ++number heeft de waarde 4 en als er daar 2 bij wordt opgeteld krijg je 6, dus vandaar het antwoord.
+    </p>
+
+   <script>
+      let number = 3;
+      y = number++;
+      console.log(`number:${number}, number++:${y}`);
+
+      number = 3;
+      const sum = number++ + 2;
+      console.log(sum);
+
+      number = 3;
+      const sum2 = ++number + 2;
+      console.log(sum2);
+   </script>
+
+</body>
+
+</html>

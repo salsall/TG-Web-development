@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+</head> 
+<body> 
+   <h1>Opdracht 16</h1>
+   <p>Met de volgende variabele worden er allerlei string methoden gebruikt.
+      sentence = Dit is opdracht 16.</p>
+   <ol>
+      <li>charAt(): sentence.charAt(7) = o - selecteert 7e character(dus ook spatie). Begint bij 0.</li>
+      <li>concat(): sentence.concat('en het is ee nleerzame opdracht.') - combineert twee of meer strings en maakt er één string van.</li>
+      <li>slice(): sentence.slice(7, 15) = opdracht - Pakt een stuk van de string met begin en eind-index als parameter. De laatste eind-index wordt niet meegenomen.</li>
+      <li>split(): sentence.split('') ="D", "i", "t", " ", "i", "s", " ", "o", "p", "d", "r", "a", "c", "h", "t", " ", "1", "6", "."] - Zet alle characters van de string in een array. Ook kan er op een bepaalde character worden gesplitst, waarbij de string verdeeld wordt in net zoveel stukken als dat het character voorkomt in de string.</li>
+      <li>substr(): sentence.substr(3, 4) = is op - Werkt net als slice() om een stuk van de string te selecteren, maar dan met een begin-index en een lengte ipv begin + eind-index als parameters. </li>
+   </ol>
+
+
+    <script> 
+        const sentence = 'Dit is opdracht 16.' 
+        let text = sentence.charAt(7); 
+        console.log(text); 
+        text = sentence.concat('en het is een leerzame opdracht.'); 
+        console.log(text); 
+        text = sentence.slice(7, 15); 
+        console.log(text); 
+        text = sentence.split(''); 
+        console.log(text); 
+        text = sentence.substr(3, 6); 
+        console.log(text); 
+
+    </script> 
+</body> 
+</html>
