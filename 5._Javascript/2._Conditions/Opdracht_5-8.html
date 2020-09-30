@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <h1>Opdracht 5</h1>
+   <p>We hebben nu verschillende comparison operators gehad. Wat is het verschil tussen &#60; en &#60;= ?</p>
+   <p>Bij de comparison operator &#60; wordt er gekeken naar een waarde lager dan het getal dat na deze operator staat, bijvoorbeeld bij &#60; 5 wordt er gekeken naar de getallen lager dan 5.</p>
+   <p>Bij de comparison operator &#60;= wordt er vergeleken met een waarde gelijk en lager dan de waarde na de operator, dus bijvoorbeeld bij &#60;= 5 wordt er gekeken naar de getallen 5 en lager.</p>
+
+   <h1>Opdracht 6</h1>
+   <p>We hebben nog een comparison operator niet gehad, namelijk ! comparison. Wat doet een ! comparison ? Maak een voorbeeld van een ! comparison</p>
+   <p>De comparison operator ! staat voor 'niet', dus bij de operator != wordt er bedoeld 'is niet gelijk aan'. In de console is de waarde van number vergeleken met andere waardes waarbij de output (type: boolean) aangeeft of de bewering false of true is. 
+      <ul>
+         <li>let number = 3;</li>
+         <li>console.log(number != 3, number !=5);</li>
+      </ul> 
+      De eerste bewering dat de waarde van number niet gelijk is aan (!=) 3 klopt niet en staat er bij de output false. De tweede bewering klopt wel, want de waarde van number (3) is inderdaad niet gelijk aan 5 en de output is true.
+   </p>
+
+   <h1>Opdracht 7</h1>
+   <p>Schrijf de code van opdracht 1 t/m 4 zo dat als de conditie niet waar is dat de tekst van de label verwijdert wordt.
+      </p>
+   <p>Check Opdracht 1-4. Bij de input van waarde 4 wordt de tekst van de label verwijdert.</p>
+
+   <h1>Opdracht 8</h1>
+   <p>De strict equality comparison (===) controleert of twee operands gelijk zijn aan elkaar en geeft als uitkomt een Boolean (True of False). In tegenstelling tot de equality operator (==) beschouwt de strict equality operator, operanden van verschillende typen ALTIJD als veschillend, bijvoorbeeld:
+      <ul>
+         <li>let number = 3;</li>
+         <li>let number2 = '3';</li>
+         <li>console.log(number == number2, number === number2);</li>
+      </ul> 
+   De twee variabelen zijn gelijk aan elkaar in waarde, maar de datatypes zjin verschillend. Bij de gelijkheidsoperator worden ze wel als gelijk beschouwd, in tegenstelling tot de strict equality operator.</p>
+
+   <script>
+      let number = 3;
+      let number2 = '3';
+      console.log(number == number2, number === number2);
+   </script>
+</body>
+</html>
