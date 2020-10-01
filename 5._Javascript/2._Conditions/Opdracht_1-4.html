@@ -18,6 +18,11 @@
       function checkNumber() {
          let x, text;
          x = document.getElementById("number").value;
+         console.log(x)
+         // let y = 3;
+         // let z = "3";
+         // console.log(y != z);
+
          if (x == 3) {
             text = "Het ingevoerde getal is gelijk aan 3.";
          }
@@ -29,11 +34,14 @@
          }
          else if (x < 3) {
             text = "Het ingevoerde getal is kleiner dan 3.";
-         } else {
+         }
+
+         else {
             text = "";
          }
-         
+
          document.getElementById("label").innerHTML = text;
+         
       }
    </script>
 </body>
